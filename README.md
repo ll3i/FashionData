@@ -8,3 +8,6 @@ model training, recommendation system
 “{W/T}_{이미지ID}_{시대별}_{스타일별}_{성별}.jpg”이에 기반하여 “이미지ID”
 수기준으로“성별 & 스타일”통계치를아래표형식으로기입한다.
  ※ Training, Validation 데이터에 대해서 각각 통계표를 작성한다
+
+
+<script src="https://gist.github.com/ihoneymon/652be052a0727ad59601.js"></script>
