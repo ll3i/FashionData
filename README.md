@@ -36,11 +36,16 @@
 수 기준으로 “성별 & 스타일” 통계치 구하기)
 - <img src="스크린샷 2024-11-02 142256.png" alt="Project Image" width="500"/>
 - 1-2 ResNet-18를 활용하여 “성별 & 스타일” 단위로 클래스 분류를 수행, 정확도 구하기
-### <img src="스크린샷 2024-11-02 142323.png" alt="Project Image" width="400" height="300"/>
+### <img src="스크린샷 2024-11-02 142323.png" alt="Project Image" width="400" height="400"/>
 - 2-1 패션 스타일 선호 여부 예측
+- <img src="스크린샷 2024-11-02 142351.png" alt="Project Image" width="500"/>
 - 2-2 유효한 라벨링 데이터를 확인후 100명의 "스타일 선호 정보표"구하기
+- <img src="스크린샷 2024-11-02 142407.png" alt="Project Image" width="500"/>
 - 3-1 패션 스타일 선호 여부 예측
 - 3-2 item-base filtering 구현
+
+- 데이터 파일 형식
+<img src="스크린샷 2024-11-02 150238.png" alt="Project Image" width="500"/>
 
 ## Features
 *강조하고 싶은 **주요 기능**이나 **차별성 있는 특징**을 적으세요.*
