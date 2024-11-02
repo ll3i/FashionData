@@ -5,7 +5,7 @@
 
 <!--프로젝트 대문 이미지-->
 ![Project Title](img/project-title.png)
-
+![[Pasted image 20241102140631.png]]
 <!--프로젝트 버튼-->
  [![Readme in English][readme-eng-shield]][readme-eng-url] [![View Demo][view-demo-shield]][view-demo-url] [![Report bug][report-bug-shield]][report-bug-url] [![Request feature][request-feature-shield]][request-feature-url]
 
@@ -113,7 +113,7 @@ const API_KEY = "<Your API key>";
 
 
 # [6] Contact
-- 📧 dev.ujin518@gmail.com
+- 📧 work4811@naver.com
 - 📋 [https://dev-ujin.github.io/contact](https://dev-ujin.github.io/contact)
 
 
