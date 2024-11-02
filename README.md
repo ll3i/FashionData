@@ -40,7 +40,7 @@
 - 2-1 패션 스타일 선호 여부 예측
 - <img src="스크린샷 2024-11-02 142351.png" alt="Project Image" width="500"/>
 - 2-2 유효한 라벨링 데이터를 확인후 100명의 "스타일 선호 정보표"구하기
-- <img src="스크린샷 2024-11-02 142407.png" alt="Project Image" width="500"/>
+- <img src="스크린샷 2024-11-02 142407.png" alt="Project Image" width="400" height="400"/>
 - 3-1 패션 스타일 선호 여부 예측
 - 3-2 item-base filtering 구현
 
