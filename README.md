@@ -48,8 +48,7 @@
 <img src="스크린샷 2024-11-02 150238.png" alt="Project Image" width="500"/>
 
 ## Features
-- Resnet18 이미지 분류
-- Collaborative Filtering
+- ## Resnet18 이미지 분류
 - ## user-based filtering
 - ## item-based filtering
 
