@@ -28,8 +28,27 @@
 
 # [1] About the Project
 *다음 내용을 고려하여 프로젝트에 대한 **전반적인 정보**를 적으세요.*
-
+dataset_root/
+├── training_image/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+├── training_label/
+│   ├── label1.csv
+│   ├── label2.csv
+│   └── ...
+├── validation_image/
+│   ├── image1.jpg
+│   ├── image2.jpg
+│   └── ...
+└── validation_label/
+    ├── label1.csv
+    ├── label2.csv
+    └── ...
 - 1-1 패션 스타일 이미지 분류
+(주어진 이미지 데이터의 파일 명은 아래와 같은 형식이다.  
+“{W/T}_{이미지ID}_{시대별}_{스타일별}_{성별}.jpg”이에 기반하여 “이미지ID”
+수 기준으로 “성별 & 스타일” 통계치 구하기)
 - <img src="스크린샷 2024-11-02 142256.png" alt="Project Image" width="500"/>
 - 1-2 ResNet-18를 활용하여 “성별 & 스타일” 단위로 클래스 분류를 수행, 정확도 구하기
 - 2-1 패션 스타일 선호 여부 예측
