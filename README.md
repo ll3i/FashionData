@@ -48,9 +48,10 @@
 <img src="스크린샷 2024-11-02 150238.png" alt="Project Image" width="500"/>
 
 ## Features
-*강조하고 싶은 **주요 기능**이나 **차별성 있는 특징**을 적으세요.*
-- 최고 멋진 **README**를 쉽게 작성할 수 있도록 *이텔릭체*로 된 **가이드**를 제공
-- 뱃지로 **언어 옵션**을 제공
+- Resnet18 이미지 분류
+- Collaborative Filtering
+- ## user-based filtering
+- ## item-based filtering
 
 ## Technologies
 ***언어, 프레임워크, 주요 라이브러리**를 **버전**과 함께 나열하세요.*
