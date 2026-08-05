@@ -1,3 +1,5 @@
+![banner](assets/banner.svg)
+
 # FashionData — 패션 이미지 성별·스타일 분류 및 선호 스타일 추천
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
