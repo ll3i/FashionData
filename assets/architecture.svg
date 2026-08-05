@@ -1,0 +1,75 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FashionData architecture">
+  <defs>
+    <marker id="arrow-gray" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C7CFDA"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1454FE"/>
+    </marker>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1280" height="720" fill="#F7F9FB"/>
+
+  <!-- header band -->
+  <rect x="72" y="48" width="4" height="34" rx="2" fill="#1454FE"/>
+  <text x="92" y="52" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" letter-spacing="3" fill="#1454FE">ARCHITECTURE</text>
+  <text x="92" y="92" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5" fill="#161B24">FashionData<tspan fill="#3B7AFF">.</tspan></text>
+  <text x="1208" y="70" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#94A0B0">ll3i · FashionData</text>
+
+  <!-- layer 1 : DATA -->
+  <rect x="72" y="136" width="1136" height="112" rx="16" fill="#F0F4FF" stroke="#E2E7EE"/>
+  <text x="100" y="164" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="2" fill="#6B7686">DATA</text>
+  <rect x="100" y="176" width="502" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="118" y="200" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">패션 이미지 데이터셋</text>
+  <text x="118" y="222" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">파일명 규칙 메타데이터 · 성별·스타일</text>
+  <line x1="612" y1="205" x2="668" y2="205" stroke="#C7CFDA" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+  <rect x="678" y="176" width="502" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="696" y="200" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">DataLoader</text>
+  <text x="696" y="222" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">224×224 리사이즈 · 텐서 전처리</text>
+
+  <!-- connector layer1 -> layer2 -->
+  <line x1="640" y1="248" x2="640" y2="268" stroke="#C7CFDA" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- layer 2 : MISSION 01 · 02 -->
+  <rect x="72" y="274" width="1136" height="112" rx="16" fill="#F0F3F7" stroke="#E2E7EE"/>
+  <text x="100" y="302" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="2" fill="#6B7686">MISSION 01 · 02</text>
+  <rect x="100" y="314" width="344" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="118" y="338" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">ResNet-18 커스텀 학습</text>
+  <text x="118" y="360" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">torchvision · 31클래스 분류</text>
+  <rect x="468" y="314" width="344" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="486" y="338" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">성능 평가</text>
+  <text x="486" y="360" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">scikit-learn · accuracy·P/R/F1</text>
+  <rect x="836" y="314" width="344" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="854" y="338" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">유효 라벨 검증</text>
+  <text x="854" y="360" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">정규식 파일명 필터링</text>
+
+  <!-- connector layer2 -> layer3 -->
+  <line x1="640" y1="386" x2="640" y2="406" stroke="#C7CFDA" stroke-width="1.5" marker-end="url(#arrow-gray)"/>
+
+  <!-- layer 3 : MISSION 03 -->
+  <rect x="72" y="412" width="1136" height="112" rx="16" fill="#F0F4FF" stroke="#E2E7EE"/>
+  <text x="100" y="440" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="2" fill="#6B7686">MISSION 03</text>
+  <rect x="100" y="452" width="330" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="118" y="476" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">특징 추출기</text>
+  <text x="118" y="498" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">fc 제거 · 512차원 임베딩</text>
+  <line x1="438" y1="481" x2="467" y2="481" stroke="#1454FE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <rect x="475" y="452" width="330" height="58" rx="10" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="493" y="476" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">유사도 결합</text>
+  <text x="493" y="498" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">코사인+유클리드 · alpha 가중</text>
+  <line x1="813" y1="481" x2="842" y2="481" stroke="#1454FE" stroke-width="1.5" marker-end="url(#arrow-accent)"/>
+  <rect x="850" y="452" width="330" height="58" rx="10" fill="#0B1B33"/>
+  <text x="868" y="476" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#EDF1F7">협업 필터링 추천</text>
+  <text x="868" y="498" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#CADBFF">User/Item-based · 스타일 추천</text>
+
+  <!-- layer 4 : ENVIRONMENT -->
+  <rect x="72" y="550" width="1136" height="84" rx="16" fill="#F0F3F7" stroke="#E2E7EE"/>
+  <text x="100" y="574" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="2" fill="#6B7686">ENVIRONMENT</text>
+  <rect x="100" y="582" width="1080" height="40" rx="10" fill="#FFFFFF" stroke="#C7CFDA" stroke-dasharray="6 4"/>
+  <text x="118" y="607" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="15" font-weight="600" fill="#161B24">Google Colab GPU</text>
+  <text x="1162" y="607" text-anchor="end" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="12" fill="#6B7686">CUDA 런타임 · 미션1~3 노트북 실행</text>
+
+  <!-- footer -->
+  <line x1="72" y1="680" x2="1208" y2="680" stroke="#C7CFDA" stroke-width="1"/>
+  <text x="72" y="704" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" fill="#94A0B0">PyTorch · torchvision · scikit-learn · ResNet-18 · Google Colab (CUDA)</text>
+</svg>

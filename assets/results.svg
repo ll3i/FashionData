@@ -1,0 +1,46 @@
+<svg width="1280" height="560" viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FashionData results">
+  <!-- background -->
+  <rect x="0" y="0" width="1280" height="560" fill="#F7F9FB"/>
+
+  <!-- header band -->
+  <rect x="72" y="48" width="4" height="34" rx="2" fill="#1454FE"/>
+  <text x="92" y="52" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" letter-spacing="3" fill="#1454FE">RESULTS</text>
+  <text x="92" y="92" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5" fill="#161B24">FashionData<tspan fill="#3B7AFF">.</tspan></text>
+  <text x="1208" y="70" text-anchor="end" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="13" fill="#94A0B0">ll3i · FashionData</text>
+
+  <!-- metric tiles -->
+  <rect x="72" y="152" width="266" height="160" rx="14" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="98" y="234" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="42" fill="#1454FE">64.1%</text>
+  <text x="98" y="266" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#6B7686">분류 val 정확도</text>
+
+  <rect x="362" y="152" width="266" height="160" rx="14" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="388" y="234" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="42" fill="#1454FE">78.7%</text>
+  <text x="388" y="266" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#6B7686">추천 accuracy</text>
+
+  <rect x="652" y="152" width="266" height="160" rx="14" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="678" y="234" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="42" fill="#1454FE">76.6%</text>
+  <text x="678" y="266" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#6B7686">추천 F1</text>
+
+  <rect x="942" y="152" width="266" height="160" rx="14" fill="#FFFFFF" stroke="#E2E7EE"/>
+  <text x="968" y="234" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="42" fill="#1454FE">31</text>
+  <text x="968" y="266" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#6B7686">분류 클래스</text>
+
+  <!-- deliverables -->
+  <text x="72" y="366" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="3" fill="#6B7686">DELIVERABLES</text>
+
+  <rect x="72" y="384" width="214" height="38" rx="19" fill="#F0F4FF"/>
+  <text x="179" y="408" text-anchor="middle" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#16314F">학습 노트북 (미션1~3 합본)</text>
+
+  <rect x="302" y="384" width="244" height="38" rx="19" fill="#F0F4FF"/>
+  <text x="424" y="408" text-anchor="middle" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#16314F">사용자 선호 정보표 (상위 100명)</text>
+
+  <rect x="562" y="384" width="150" height="38" rx="19" fill="#F0F4FF"/>
+  <text x="637" y="408" text-anchor="middle" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#16314F">스타일 추천 결과</text>
+
+  <rect x="728" y="384" width="284" height="38" rx="19" fill="#F0F4FF"/>
+  <text x="870" y="408" text-anchor="middle" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#16314F">2024 데이터 크리에이터 캠프 팀 어셈블</text>
+
+  <!-- footer -->
+  <line x1="72" y1="512" x2="1208" y2="512" stroke="#C7CFDA" stroke-width="1"/>
+  <text x="72" y="536" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" fill="#94A0B0">mission2 val acc 64.1% · mission3 rec acc 78.7% / F1 76.6% · 31 classes · ResNet-18</text>
+</svg>
