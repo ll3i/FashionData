@@ -1,0 +1,76 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FashionData 프로젝트 개요">
+  <!-- 배경 -->
+  <rect x="0" y="0" width="1280" height="640" fill="#F7F9FB"/>
+
+  <!-- 헤더 밴드 -->
+  <rect x="72" y="42" width="4" height="34" rx="2" fill="#1454FE"/>
+  <g font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace">
+    <text x="92" y="54" font-size="13" letter-spacing="3" fill="#1454FE">ML · RECSYS</text>
+    <text x="1208" y="54" font-size="13" fill="#94A0B0" text-anchor="end">ll3i · FashionData</text>
+  </g>
+  <text x="92" y="94" font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="34" font-weight="800" letter-spacing="-0.5" fill="#161B24">FashionData<tspan fill="#3B7AFF">.</tspan></text>
+
+  <!-- 파이프라인 카드 -->
+  <!-- STEP 01 -->
+  <rect x="72" y="264" width="196" height="176" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <!-- STEP 02 -->
+  <rect x="307" y="264" width="196" height="176" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <!-- STEP 03 -->
+  <rect x="542" y="264" width="196" height="176" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <!-- STEP 04 -->
+  <rect x="777" y="264" width="196" height="176" rx="14" fill="#FFFFFF" stroke="#E2E7EE" stroke-width="1"/>
+  <!-- STEP 05 (잉크 강조) -->
+  <rect x="1012" y="264" width="196" height="176" rx="14" fill="#0B1B33"/>
+
+  <!-- 스텝 라벨 (mono) -->
+  <g font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" letter-spacing="2" fill="#3B7AFF">
+    <text x="92" y="304">STEP 01</text>
+    <text x="327" y="304">STEP 02</text>
+    <text x="562" y="304">STEP 03</text>
+    <text x="797" y="304">STEP 04</text>
+    <text x="1032" y="304">STEP 05</text>
+  </g>
+
+  <!-- 카드 제목 (sans 700) -->
+  <g font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="19" font-weight="700" fill="#161B24">
+    <text x="92" y="340">패션 이미지</text>
+    <text x="92" y="366">데이터</text>
+    <text x="327" y="340">ResNet-18</text>
+    <text x="327" y="366">커스텀 학습</text>
+    <text x="562" y="340">fc 제거</text>
+    <text x="562" y="366">특징 추출</text>
+    <text x="797" y="340">코사인+유클리드</text>
+    <text x="797" y="366">결합</text>
+    <text x="1032" y="340" fill="#EDF1F7">협업 필터링</text>
+    <text x="1032" y="366" fill="#EDF1F7">선호 예측</text>
+  </g>
+
+  <!-- 카드 설명 (sans 400) -->
+  <g font-family="'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Malgun Gothic',system-ui,sans-serif" font-size="13" fill="#6B7686">
+    <text x="92" y="404">파일명 규칙 메타</text>
+    <text x="327" y="404">31클래스 · val 64.1%</text>
+    <text x="562" y="404">512차원 임베딩</text>
+    <text x="797" y="404">alpha 가중 최적화</text>
+  </g>
+  <!-- 잉크 카드 핵심 지표 (mono/데이터) -->
+  <text x="1032" y="404" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12.5" fill="#CADBFF">acc 78.7% · F1 76.6%</text>
+
+  <!-- 화살표 -->
+  <g stroke="#C7CFDA" stroke-width="2">
+    <line x1="274" y1="352" x2="291" y2="352"/>
+    <line x1="509" y1="352" x2="526" y2="352"/>
+    <line x1="744" y1="352" x2="761" y2="352"/>
+  </g>
+  <g fill="#C7CFDA">
+    <polygon points="291,345.5 291,358.5 301,352"/>
+    <polygon points="526,345.5 526,358.5 536,352"/>
+    <polygon points="761,345.5 761,358.5 771,352"/>
+  </g>
+  <!-- 강조 구간 화살표 (accent) -->
+  <line x1="979" y1="352" x2="996" y2="352" stroke="#1454FE" stroke-width="2"/>
+  <polygon points="996,345.5 996,358.5 1006,352" fill="#1454FE"/>
+
+  <!-- 하단 데이터 라인 -->
+  <line x1="72" y1="597.5" x2="1208" y2="597.5" stroke="#C7CFDA" stroke-width="1"/>
+  <text x="72" y="623" font-family="'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,monospace" font-size="12" fill="#94A0B0">PyTorch · torchvision · scikit-learn · pandas · Google Colab GPU · 2024 DCC 팀 어셈블</text>
+</svg>
